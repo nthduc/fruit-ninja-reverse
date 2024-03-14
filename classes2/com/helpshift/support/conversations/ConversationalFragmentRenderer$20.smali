@@ -1,0 +1,57 @@
+.class Lcom/helpshift/support/conversations/ConversationalFragmentRenderer$20;
+.super Ljava/lang/Object;
+.source "ConversationalFragmentRenderer.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;->setReplyboxListeners()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;
+
+
+# direct methods
+.method constructor <init>(Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;)V
+    .registers 2
+
+    .line 1340
+    iput-object p1, p0, Lcom/helpshift/support/conversations/ConversationalFragmentRenderer$20;->this$0:Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .registers 2
+
+    .line 1343
+    iget-object p1, p0, Lcom/helpshift/support/conversations/ConversationalFragmentRenderer$20;->this$0:Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;
+
+    iget-object p1, p1, Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;->conversationalFragmentRouter:Lcom/helpshift/support/conversations/ConversationalFragmentRouter;
+
+    if-eqz p1, :cond_d
+
+    .line 1344
+    iget-object p1, p0, Lcom/helpshift/support/conversations/ConversationalFragmentRenderer$20;->this$0:Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;
+
+    iget-object p1, p1, Lcom/helpshift/support/conversations/ConversationalFragmentRenderer;->conversationalFragmentRouter:Lcom/helpshift/support/conversations/ConversationalFragmentRouter;
+
+    invoke-interface {p1}, Lcom/helpshift/support/conversations/ConversationalFragmentRouter;->onAddAttachmentButtonClick()V
+
+    :cond_d
+    return-void
+.end method

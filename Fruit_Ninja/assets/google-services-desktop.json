@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "553639978015",
+    "firebase_url": "https://fruit-ninja-unity.firebaseio.com",
+    "project_id": "fruit-ninja-unity",
+    "storage_bucket": "fruit-ninja-unity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553639978015:android:3171eb26f3ad1d7a39e12a",
+        "android_client_info": {
+          "package_name": "com.halfbrick.fruitninjafree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553639978015-549atsc3q7re9o6p8o1l6ajsfc2hprvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtuNR0eZYuTt3m-qHzxOAHYuFmj2qigOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553639978015-549atsc3q7re9o6p8o1l6ajsfc2hprvc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "553639978015-12b16vituqhm6nkeemgskcjdj1csgigb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.halfbrick.FruitNinjaLite"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
